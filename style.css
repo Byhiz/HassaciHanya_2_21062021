@@ -1,0 +1,33 @@
+/*Font*/
+
+@font-face {
+    font-family: "Raleway";
+    src: url('Raleway/Raleway-VariableFont_wght.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+}
+
+body{
+    font-family: Raleway, Arial, Verdana, sans-serif;
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+footer{
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;  
+    margin: 0em -1em -1em -4em;  
+    padding: 1em 0em 2em 0em;
+}
+
+.Basdepage{
+    margin: 1em 0em 0em -10em;
+}
+
+nav h3{
+    margin-left: 2em;
+}
