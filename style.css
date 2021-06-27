@@ -16,18 +16,221 @@ ul{
     list-style-type: none;
 }
 
+/*Hébergements*/
+
+#ContHeberg{
+    display: flex;
+    height: 500px;
+}
+
+#MarsHeberg{
+    background-color: #f2f2f2;
+    border-radius: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+}
+
+#TitreHeberg{
+    padding-left: 1em;
+    margin: 1em 0em 0em 1em;
+    width: 90%;
+    height: 10%;
+}
+
+.ContMarsHeberg{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: -3em;
+}
+
+.CartesHeb{
+    background-color: #ffffff;
+    box-shadow: 1em 1em 1em #e6e6e6;
+    width: 27%;
+    height: 40%;
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+.hebpic{
+    object-fit: cover;
+    width: 100%;
+    height: 65%;
+    border-radius: 0.8em 0.8em 0em 0em;
+}
+
+#plus{
+    height: 10%;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 3.5em 0em 0em 2em;
+}
+
+/*Populaires*/
+
+#populaires{
+    background-color: #f2f2f2;
+    margin-left: 1.5em;
+    border-radius: 1em;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+
+}
+
+#TitrePop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0em 3em 0em 3em;
+    width: 90%;
+    height: 10%;
+}
+
+#PlusPopulaires{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.CartesPop{
+    background-color: white;
+	box-shadow: 1em 1em 2em #e6e6e6;
+	width: 85%;
+	height: 25%;
+	padding: 0.3em 0.3em 0.3em 0.3em;
+	border-radius: 1em;
+	display: flex;
+}
+
+.lienpop{
+    height: 90%;
+    width: 45%;
+}
+
+.poppic{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 1em 0em 0em 1em;
+}
+
+.PopLegende{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0.4em;
+}
+
+/*Activités à Marseille*/
+
+#activitesmars{
+    margin: 1em 3em 0em 3em;
+}
+
+#activites{
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-template-rows: 9% 9% 9% 9% 9% 9% 9% 9% 9% 9%;
+    grid-column-gap: 2em;
+    height: 450px;
+    width: 100%;
+}
+
+.ActCarte{
+    margin: 2em 0em 3em -1em;
+    max-height: 100%;
+    width: 100%;
+    border: solid 2px #f2f2f2;
+    border-radius: 1em;
+    box-shadow: 1em 1em 2em #e6e6e6;
+    overflow: hidden;
+}
+
+.ActCarte:nth-child(1){
+    grid-row-start: 1;
+    grid-row-end: 12;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.ActCarte:nth-child(2){
+    grid-row-start: 1;
+    grid-row-end: 8;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.ActCarte:nth-child(3){
+    grid-row-start: 7;
+    grid-row-end: 12;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.ActCarte:nth-child(4){
+    grid-row-start: 1;
+    grid-row-end: 30;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.ActCarte:nth-child(5){
+    grid-row-start: 1;
+    grid-row-end: 7;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.ActCarte:nth-child(6){
+    grid-row-start: 6;
+    grid-row-end: 12;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.ActLegende{
+    padding: 0.1em 0em 0em 1.5em;
+    background-color: #ffffff;
+    height: 18%;
+    justify-content: space-around;
+}
+
+.ActPic{
+    object-fit: cover;
+    width: 100%;
+    height: 82%;
+    border-radius: 1em 1em 0em 0em;
+    }
+     
+
+/*Footer*/
+
 footer{
     background-color: #f2f2f2;
+    margin: 0em -1em -1em -4em;
+    padding: 1em 17em 2em 0em;
     display: flex;
-    justify-content: space-around;  
-    margin: 0em -1em -1em -4em;  
-    padding: 1em 0em 2em 0em;
+    justify-content: space-around;
 }
 
-.Basdepage{
-    margin: 1em 0em 0em -10em;
+.basdepage {
+	margin: 1em 0em 0em -5em;
 }
 
-nav h3{
-    margin-left: 2em;
+nav h3 {
+	margin-left: 2em;
 }
