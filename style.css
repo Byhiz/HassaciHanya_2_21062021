@@ -16,6 +16,184 @@ ul{
     list-style-type: none;
 }
 
+li{
+    list-style: none;
+}
+
+nav li
+{
+		margin-right: 3em; 
+}
+
+nav {
+	margin-top: -2em;
+}
+
+li {
+	padding-top: 2em;
+	margin-top: 0em;
+}
+
+.EleNav:hover {
+	border-top: 0.1em #609ffd solid; 
+}
+
+a.lienpage:hover {
+color: #609ffd;
+}
+
+.lienpage {
+	color: black;
+	font-size: 1em;
+}
+
+em {
+	font-weight: bold;
+	color: blue;
+	font-style: normal;
+}
+
+/*Header*/
+
+#Header{
+    display: grid;
+    align-items: center;
+    width: 100%;
+}
+
+#LogoReservia{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 8;
+}
+
+#navigation{
+    grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 7;
+	grid-column-end: 9;
+}
+
+#navigationUL{
+    display: flex;
+    justify-content: space-around;
+}
+
+#Logon{
+    grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 9;
+	grid-column-end: 10;
+	text-align: center;
+    font-weight: bold;
+}
+
+/*Recherche*/
+
+#ZoneRecherche{
+    background-color: #f2f2f2;
+    border-collapse: collapse;
+    width: 100px;
+    border-radius: 1em;
+    display: flex;
+}
+
+.elementsearch:nth-child(1){
+    flex: 1;
+}
+
+.elementsearch:nth-child(2){
+    flex: 3;
+}
+
+.elementsearch:nth-child(3){
+    flex: 2;
+}
+
+.elementsearch:nth-child(4){
+    flex: 2;
+}
+
+#lieu{
+    border: none;
+    padding: 1em 1.5em 1em 1.5em;
+    border-radius: 1em 0em 0em 1em;
+}
+
+#mysearch{
+    font-size: 1.2em;
+    border: solid 0.1em #ffffff;
+    padding: 0.5em 0em 0.5em 1.5em;
+}
+
+#search{
+    background-color: #0065FC;
+    border: none;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 0em 1em 1em 0em;
+}
+
+#iconesearch{
+    background-color: #0065FC;
+    border: none;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 0em 1em 1em 0em;
+    padding: 0em 1em 0em 1em;
+}
+
+/*Filtres*/
+
+#TitreFiltres{
+    padding-right: 0.2em;
+}
+
+#filtres{
+    padding-top: 2em;
+    font-size: 1.1em;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#ContFiltre{
+    margin: 0em 0em 0em 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.zonefiltre{
+    border: 0.15em solid #d9d9d9;
+    border-radius: 3em;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    padding-right: 0.2em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.zonefiltre:hover{
+    background-color: #0065FC;
+    color: #ffffff;
+}
+
+.iconfiltre{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    border-radius: 3em;
+    padding: 0.5em;
+    margin-right: 0.2em;
+}
+
 /*Hébergements*/
 
 #ContHeberg{
